@@ -1,0 +1,1 @@
+ALTER TABLE equipment ADD COLUMN IF NOT EXISTS purchase_price NUMERIC(12,2) DEFAULT 0;
